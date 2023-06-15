@@ -29,7 +29,7 @@ public class StoreChainTest {
     }
 
 	@Test
-	public void testJavalin() throws InterruptedException {
+	public void testJavalinIntro() throws InterruptedException {
 		String expectedResult = "Hello World";
         String actualResult = CommandLine.executeCommandPrompt("curl http://localhost:7000");
 
